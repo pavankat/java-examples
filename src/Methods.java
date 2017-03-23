@@ -23,15 +23,21 @@ public class Methods {
 
 		//using method over loading 
 			int result1 = minFunction(1, 2);
-			
+
 			// same function name with different parameters
 			double result2 = minFunction(1.8, 2.9);
+
+			//same result but different NUMBER of parameters
+			int result3 = minFunction(99);
+
 			System.out.println("Minimum Value = " + result1);  //Minimum Value = 1
 			System.out.println("Minimum Value = " + result2);  //Minimum Value = 1.8
+			System.out.println("Minimum Value = " + result3);  //Minimum Value = 99
 
 	}
 
 	public static void methodRankPoints(double points) {
+		//points only lives inside this method
 	   if (points >= 202.5) {
 	      System.out.println("Rank:A1");
 	   }else if (points >= 122.4) {
@@ -54,6 +60,11 @@ public class Methods {
 	//method OverLoading
 		//When a class has two or more methods by the same name but different parameters,
 				// for integer
+
+				public static int minFunction(int n1) {
+				   return n1;
+				}
+
 				public static int minFunction(int n1, int n2) {
 				   int min;
 				   if (n1 > n2)

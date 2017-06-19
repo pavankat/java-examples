@@ -102,8 +102,19 @@ public class HelloWorld {
             String nameJ = "James";
 
             // following will return true since name is type of String
-            boolean result = nameJ instanceof String;
+            boolean result = letter instanceof String;
             System.out.println( result );
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 

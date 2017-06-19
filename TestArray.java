@@ -1,6 +1,17 @@
 import java.util.Arrays; //need this to use Arrays.toString...
 
 public class TestArray {
+      //JavaScript
+      for (var i=0; i<arr.length; i++){
+         console.log(arr[i]);
+      }
+
+      //Java
+      for (int i = 0; i < array.length; i++) {
+         System.out.println(array[i]);
+      }
+
+
 
    //how to write functions in JAVA
       //this one prints everything onto one line

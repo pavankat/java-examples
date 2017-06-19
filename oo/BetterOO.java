@@ -9,7 +9,7 @@ public class BetterOO {
 		double area = sq.calculateArea();
 
 		Square sq2 = new Square();
-		sq2.side = 9;
+		sq2.side = 3;
 		System.out.println(sq2.calculateArea());
 	}
 }
@@ -20,3 +20,7 @@ class Square {
 		return side*side;
 	}
 }
+
+
+
+

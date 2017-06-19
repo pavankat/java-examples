@@ -3,7 +3,7 @@
 	Java does manipulate objects by reference, and all object variables are references. However, Java doesn't pass method arguments by reference; it passes them by value.
 */
 public class CallingMethods {
-	public static void main(String[] args){
+	public static void main(String[] args){ //THIS ONE
 		int original = 10;
 
 		//sq is a variable
